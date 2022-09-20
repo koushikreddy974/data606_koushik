@@ -145,3 +145,13 @@ The project aims to create a model which can create faces which are indistinguis
 • Implementation of GAN Model
 
 • Presentation
+
+**11. Tasks to be Performed:**
+
+--  We will be loading the dataset into numpy arrays. 
+--  We will preprocess the images like fitting its resolution. 
+--  We will be creating a GAN model and training it with the dataset I loaded. 
+--  We will be training a discriminator that can filter whether an image is real or generated.
+--  Hyper parameter tuning will be performed.
+--  We will be creating new images using the generator.
+--  For evaluation purpose, we will be taking a model available on internet to predict if generated image is a human face or not.

@@ -130,7 +130,7 @@ The project aims to create a model which can create faces which are indistinguis
 
 **10. Team Responsibility:**
 
- Koushik - Team Member
+ ### Koushik - Team Member
 
 • Documentation
 
@@ -138,7 +138,7 @@ The project aims to create a model which can create faces which are indistinguis
 
 • Testing, Training of GAN Model
 
-Rama Charan - Team Member
+### Rama Charan - Team Member
 
 • Data EDA
 

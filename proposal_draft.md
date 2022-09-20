@@ -126,3 +126,22 @@ Although which method to use should be decided through deep analysis after the m
 #### _What outcomes do you intend to achieve?_
 
 The project aims to create a model which can create faces which are indistinguishable by  humans or machines. Through this project we intend to gain more insights about Machine learning tools, requirement analysis, more insights into convolution neural networks, etc.
+
+
+**10. Team Responsibility:**
+
+ Koushik - Team Member
+
+• Documentation
+
+• Data EDA
+
+• Testing, Training of GAN Model
+
+Rama Charan - Team Member
+
+• Data EDA
+
+• Implementation of GAN Model
+
+• Presentation

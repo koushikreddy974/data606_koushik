@@ -6,7 +6,7 @@
 
 ## Project Title:  SYNTHETIC FACE GENERATION
 
-#### _What is your issue of interest?_
+#### _1. What is your issue of interest?_
 
 Synthetic Face Generation, is gaining a lot of attraction in current days.
 > "The coolest idea in the last 20 years" - quoted by Yann LeCun
@@ -18,7 +18,7 @@ Many firms and R&Ds started working on GANs extensively in recent days. Facebook
  
  The success stories of GANs reflects on the impact they create in society.
  
-#### _Why is this issue important to you and/or others?_
+#### _2. Why is this issue important to you and/or others?_
 
  In data science, it is very common to face issues like, the dataset is not big enough, the dataset is not diverse enough, amount of data present for one label dominates amount of data present for another. We personally faced this issue while creating a model for attendence system by face recognition. Face synthesis can be used as a data augmentation technique in such cases to create more data. Microsoft created a complete dataset with synthetic faces. When tesed on different models, the performance was much better than models trained using normal dataset on test data. Microsoft says this is because of the diversity added in the dataset.
 
@@ -26,7 +26,7 @@ Many firms and R&Ds started working on GANs extensively in recent days. Facebook
 
  Content creators can use this technique when they want images of so many people(in cases like metaverse) or when they have to use a face for some sensitive issue that could be uncomfortable for the person whose face is displayed. The same model can be used on anime images and reduce valuable efforts of anime character designers and artists to create new anime characters. This technique can also be used to create avatars.
  
-#### _What questions do you have in your mind and would like to answer?_
+#### _3. What questions do you have in your mind and would like to answer?_
 
 As explained above, synthetic face generation is a research topic that can be used in so many aspects. Our research finds out and stores the key features to be present in a face and create new faces by keeping the key features constant and changing other features of a face. The actions that the model will be handling are:
 
@@ -45,7 +45,7 @@ Some of them are:
 - Is it possible to generalize the model in such a way that we can input an image and the model can generate images in the context of input image?  
  
 
-#### _Where do you get the data to analyze and help answer your questions?_
+#### _4. Where do you get the data to analyze and help answer your questions?_
 
 We obtained the dataset from the source below:-
 
@@ -93,16 +93,16 @@ The data contains over 38 different attributes namely,
 - Wearing_Lipstick
 - Wearing_Necklace
 
-#### _What questions do you have in your mind and would like to answer?_
+#### _5. What questions do you have in your mind and would like to answer?_
 
 Here, the unit of analysis is the location
 
-#### _What variables/measures do you plan to use in your analysis?_
+#### _6. What variables/measures do you plan to use in your analysis?_
 
 The train data will contain face images as input data. 
 The aim will be to make the images indistinguishible by a discriminator.
 
-#### _What kinds of techniques/models do you plan to use?_
+#### _7. What kinds of techniques/models do you plan to use?_
 
 We will be using a GAN model.
 It contains a number of 2d convolutions.
@@ -110,7 +110,7 @@ Additionally, we will be using image processing techniques for preprocessing.
 A block digram of how the model looks is shown below:-
 ![Sample GAN](https://miro.medium.com/max/1050/1*XKanAdkjQbg1eDDMF2-4ow.png)
 
-#### _How do you plan to develop/apply ML and how do you evaluate performance of models?_
+#### _8. How do you plan to develop/apply ML and how do you evaluate performance of models?_
 
 We are planning to make use of google colaboratory which provides GPU and keras library to create convolution networks.  
 Unlike other networks, GANs are very difficult to evaluate as we are just producing new images which cannot be compared to any other. 
@@ -123,12 +123,12 @@ Some qualitative techniques for evaluating GAN generator models are listed below
 
 Although which method to use should be decided through deep analysis after the model creation according to the face quality that the model is producing.
 
-#### _What outcomes do you intend to achieve?_
+#### _9. What outcomes do you intend to achieve?_
 
 The project aims to create a model which can create faces which are indistinguishable by  humans or machines. Through this project we intend to gain more insights about Machine learning tools, requirement analysis, more insights into convolution neural networks, etc.
 
 
-**10. Team Responsibility:**
+**_10. Team Responsibility:_**
 
  #### Koushik - Team Member
 
@@ -146,7 +146,7 @@ The project aims to create a model which can create faces which are indistinguis
 
 • Presentation
 
-**11. Tasks to be Performed:**
+**_11. Tasks to be Performed:_**
 
 --  We will be loading the dataset into numpy arrays.  
 --  We will preprocess the images like fitting its resolution.   

@@ -149,6 +149,7 @@ The project aims to create a model which can create faces which are indistinguis
 **11. Tasks to be Performed:**
 
 --  We will be loading the dataset into numpy arrays. 
+
 --  We will preprocess the images like fitting its resolution. 
 --  We will be creating a GAN model and training it with the dataset I loaded. 
 --  We will be training a discriminator that can filter whether an image is real or generated.
